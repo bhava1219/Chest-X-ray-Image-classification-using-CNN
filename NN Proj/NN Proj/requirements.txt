@@ -1,0 +1,18 @@
+# Web API
+fastapi>=0.111,<0.112
+uvicorn[standard]>=0.30,<0.31
+python-multipart>=0.0.9,<0.0.10
+requests>=2.31,<3
+
+# Imaging & numerics
+pillow>=10.3,<11
+numpy==1.26.4
+
+# ML runtimes
+scikit-learn==1.3.2
+joblib>=1.3,<1.4
+
+# TensorFlow/Keras stack compatible with legacy .h5
+tensorflow-cpu==2.15.*
+keras==2.15.*            # <-- force Keras 2, not Keras 3
+h5py==3.10.*             # <-- stable with TF 2.15
