@@ -38,10 +38,10 @@ svm_model, rf_model, dt_model, label_encoder, feature_extractor = load_tradition
 
 # Model accuracies
 model_accuracies = {
-    "SVM": 0.92,
-    "Random Forest": 0.90,
-    "Decision Tree": 0.83,
-    "CNN": 0.96
+    "SVM": 0.96,
+    "Random Forest": 0.95,
+    "Decision Tree": 0.86,
+    "CNN": 0.89
 }
 
 st.title("Chest X-ray Classification (Pneumonia Detection)")
